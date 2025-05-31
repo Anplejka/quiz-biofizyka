@@ -41,6 +41,9 @@
     exit
   fi
 }
+ask_question "Ile to 2 + 2?" "3" "4" "5" "6" "B"
+ask_question "Jaki jest symbol chemiczny wody?" "H2O" "O2" "CO2" "HCl" "A"
 
+echo "Twój końcowy wynik: $score"
 
 
