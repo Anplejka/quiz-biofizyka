@@ -1,6 +1,6 @@
 #!/bin/bash
 score=0
-[A[A[A[A[B[B[B[Bask_question() {
+ask_question() {
   question="$1"
   A="$2"
   B="$3"
