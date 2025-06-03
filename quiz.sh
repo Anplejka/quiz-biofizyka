@@ -1,4 +1,19 @@
 #!/bin/bash
+echo "Witaj w grze edukacyjnej typu quiz!"
+sleep 2
+echo "Wczuj się w rolę studneta biofizyki, podejmującego próbę zdania egzaminu z biofizyki."
+echo "================================================================================="
+sleep 2
+echo "Powodzenia!"
+sleep 2
+echo "3"
+sleep 1
+echo "2"
+sleep 1
+echo "1"
+sleep 1
+echo "0"
+sleep 2
 score=0
 ask_question() {
   question="$1"
